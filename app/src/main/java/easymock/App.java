@@ -3,7 +3,10 @@
  */
 package easymock;
 
+import javax.annotation.Nonnull;
+
 public class App {
+    @Nonnull
     public String getGreeting() {
         return "Hello World!";
     }
